@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Whitney Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Medium'), url('./assets/fonts/whitneymedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Medium Italic'), url('./assets/fonts/whitneymediumitalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Bold'), url('./assets/fonts/whitneybold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Semibold Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Semibold Regular'), url('./assets/fonts/whitneysemibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Book Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Book Regular'), url('./assets/fonts/whitneybook.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Light Regular'), url('./assets/fonts/whitneylight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Semibold Italic'), url('./assets/fonts/whitneysemibolditalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Book Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Book Italic'), url('./assets/fonts/whitneybookitalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Whitney Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Whitney Light Italic'), url('./assets/fonts/whitneylightitalic.woff') format('woff');
+}
+
+/*
+==  Global
+*/
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0!important;
+  font-family: 'Whitney Semibold Regular', sans-serif;
+}
+p,label,a{
+  margin: 0!important;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/*
+==  Global Container
+*/
+.Container{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
